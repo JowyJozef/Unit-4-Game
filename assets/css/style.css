@@ -5,24 +5,27 @@ body {
 }
 
 .crystal-image {
-	width: 150px;
-	height: auto;
-    border: 3px solid lightsteelblue;
-    margin-left: 20px;
+	width: 160px;
+	height: 160px;
+    border: 6px solid rgb(180, 200, 226);
+    margin-left: 15px;
     margin-top: 15px;
+    text-align: center;
 }
 
 #headermaster {
-	background-color: #658ED5;
+    background-color: rgb(122, 27, 177);
+    color: rgb(255, 255, 255);
     width: 350px;
-    height: 80px;
+    height: inherit;
+    border: 6px solid rgb(214, 188, 236);
     margin-bottom: 10px;
-    margin-left: 25px;
+    margin-left: 619px;
     text-align: center;
 }
 
 #scores {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;	
 }
@@ -30,47 +33,63 @@ body {
 .paragraph {
     width: 370px;
     height: 330px;
-    background-color: cornsilk;
-    color: teal;
+    background-color: rgb(248, 241, 213);
+    color: rgb(2, 116, 116);
     font-size: 16px;
     padding: 10px;
-    margin-left: 15px;
-}
-
-.matches, .windandlose {
-	float: left;
-    width: 18%;
-    margin-top: 15px;
-    margin-left: 15px;
-    padding-left: 15px;
+    margin-left: 608px;
+    border: 6px solid rgb(142, 193, 243);
 }
 
 .matches {
-    height: 60px;
-    background-color: darkturquoise;
-    color: snow;
+    height: 80px;
+    background-color: rgb(151, 84, 190);
+    color: rgb(248, 245, 245);    
+    float: left;
+    width: 15%;
+    padding: 2px;
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 6px solid rgb(214, 188, 236);
 }
 
 .winandlose {
-    background-color: skyblue;
-    color: lavender;
-    margin-left: 325px;
-    max-width: 100px;
+    height: 30%;
+    background-color: rgb(106, 42, 143);
+    color: rgb(217, 217, 247);
+    margin-left: 300px;
+    margin: 25px;
+    margin-right: 175px;
+    margin-top: 25px;
+    max-width: 125px;
+    border: 6px solid rgb(214, 176, 222);
+    float: right;
+    width: 18%;
+    padding-bottom: 10px;
+    border: 6px solid rgb(214, 188, 236);
+}
+
+#colorcrystal {
+    float: none;
+    padding: 3px;    
 }
 
 .totalscore {
-    width: 16%;
+    width: 23%;
     height: 90px;
-    background-color: papayawhip;
-    margin-left: 15px;
+    background-color: rgb(250, 235, 210);
+    margin-left: 615px;
     padding-left: 10px;
+    text-align: center;
 }
 
 footer {
-    background: aliceblue;
+    background: rgb(239, 246, 251);
     clear: both;
     text-align: center;
-    font-size: 30px;
-    color: #4A5BD2;
+    font-size: 20px;
+    color: rgb(22, 38, 163);
     margin-top: 15px;
 }
